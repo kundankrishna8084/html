@@ -1,0 +1,108 @@
+/* basic resets */
+body {
+    margin: 0px;
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    /*to remove underline in anchor*/
+}
+li {
+    list-style: none;
+    /*to remove dot in front of li elements*/
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red
+}
+
+a:active {
+    color: red;
+}
+a {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+/*  Header*/
+header{
+    display:flex;
+    /* manage space horizontally*/
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+     margin-left: 2rem;
+}
+nav{
+    margin-right: 1rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+}
+
+
+ul>li{
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+
+/* main image */
+/* don,t cram just copy paste it */
+.main-img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*    Main       */
+.parent{
+    /* boder:10px solid red; */
+    margin-top: 2rem;
+    display: flex;
+    /* Text inside that parent includes image will be centred */
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.child{
+    width: 30%;
+}
+
+
+/* footer tag */
+footer {
+    /* vertically center */
+    height: 5rem;
+   /* text-align: center;*/
+    background-color: rebeccapurple;
+    /* it is used to perfectly center a div  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_content{
+
+
+    color:black;
+    /* boldness */
+    font-weight: 500;
+    font-size: 1.5rem;
+    /* enforce uppercase */
+    text-transform: uppercase;
+}
